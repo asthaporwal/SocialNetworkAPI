@@ -1,0 +1,235 @@
+{
+	"id": "5cb48955-356f-46d0-bb35-4ee07b9f6e94",
+	"name": "SocialApp",
+	"timestamp": "2024-06-02T12:56:07.327Z",
+	"collection_id": "23770178-6251d5c0-2334-46c1-88f8-0ff1b17ceb98",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 7,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "f6e7e5f2-e963-4989-b411-65776ac55624",
+			"name": "SignUp",
+			"url": "http://127.0.0.1:8000/api/signup/",
+			"time": 149,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Signup Successful": true
+			},
+			"testPassFailCounts": {
+				"Signup Successful": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				149
+			],
+			"allTests": [
+				{
+					"Signup Successful": true
+				}
+			]
+		},
+		{
+			"id": "9e2ebf1c-14b2-4bb0-8aaf-dcee1f1439cd",
+			"name": "Login",
+			"url": "http://127.0.0.1:8000/api/login/",
+			"time": 121,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Login Successful": true
+			},
+			"testPassFailCounts": {
+				"Login Successful": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				121
+			],
+			"allTests": [
+				{
+					"Login Successful": true
+				}
+			]
+		},
+		{
+			"id": "4939010d-9d1b-41d9-8527-4fdb258343d2",
+			"name": "SearchUser",
+			"url": "http://127.0.0.1:8000/api/search/?q=s",
+			"time": 3,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Search Users Successful": true
+			},
+			"testPassFailCounts": {
+				"Search Users Successful": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3
+			],
+			"allTests": [
+				{
+					"Search Users Successful": true
+				}
+			]
+		},
+		{
+			"id": "ddf55b8e-ffcf-4d0f-811e-d2f03a885d31",
+			"name": "Friend-Request",
+			"url": "http://127.0.0.1:8000/api/friend-request/",
+			"time": 22,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Send Friend Request": true
+			},
+			"testPassFailCounts": {
+				"Send Friend Request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				22
+			],
+			"allTests": [
+				{
+					"Send Friend Request": true
+				}
+			]
+		},
+		{
+			"id": "e71cc7ac-fb02-4478-942b-a3f2fb97ec9f",
+			"name": "PendingRequest",
+			"url": "http://127.0.0.1:8000/api/pending-requests/",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"List Pending Friend Requests": true
+			},
+			"testPassFailCounts": {
+				"List Pending Friend Requests": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				6
+			],
+			"allTests": [
+				{
+					"List Pending Friend Requests": true
+				}
+			]
+		},
+		{
+			"id": "ce72301a-042f-4c5b-8f4d-ecd4136663de",
+			"name": "ManageFriendRequest",
+			"url": "http://127.0.0.1:8000/api/friend-request/7/accept/",
+			"time": 24,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Accept/Reject Friend Request": true
+			},
+			"testPassFailCounts": {
+				"Accept/Reject Friend Request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				24
+			],
+			"allTests": [
+				{
+					"Accept/Reject Friend Request": true
+				}
+			]
+		},
+		{
+			"id": "c0af01ef-714d-44fc-a9a3-7d8be024287f",
+			"name": "ViewFriends",
+			"url": "http://127.0.0.1:8000/api/friends",
+			"time": 9,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"List Friends": true
+			},
+			"testPassFailCounts": {
+				"List Friends": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				9
+			],
+			"allTests": [
+				{
+					"List Friends": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 334,
+	"collection": {
+		"requests": [
+			{
+				"id": "f6e7e5f2-e963-4989-b411-65776ac55624",
+				"method": "POST"
+			},
+			{
+				"id": "9e2ebf1c-14b2-4bb0-8aaf-dcee1f1439cd",
+				"method": "POST"
+			},
+			{
+				"id": "4939010d-9d1b-41d9-8527-4fdb258343d2",
+				"method": "GET"
+			},
+			{
+				"id": "ddf55b8e-ffcf-4d0f-811e-d2f03a885d31",
+				"method": "POST"
+			},
+			{
+				"id": "e71cc7ac-fb02-4478-942b-a3f2fb97ec9f",
+				"method": "GET"
+			},
+			{
+				"id": "ce72301a-042f-4c5b-8f4d-ecd4136663de",
+				"method": "POST"
+			},
+			{
+				"id": "c0af01ef-714d-44fc-a9a3-7d8be024287f",
+				"method": "GET"
+			}
+		]
+	}
+}
